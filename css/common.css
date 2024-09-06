@@ -332,6 +332,15 @@
   background: #2D6770;
   text-align: center;
 }
+#footer #toTopButton {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  width: 50px;
+}
+#footer #toTopButton > img {
+  width: 60px;
+}
 #footer .inner {
   padding: 50px 0 30px;
   position: relative;

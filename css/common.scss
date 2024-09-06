@@ -427,7 +427,16 @@ display: none;
     position: relative;
     background: #2D6770;
     text-align: center;
-   
+    #toTopButton{
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        width: 50px;
+    
+        > img{
+            width: 60px;
+        }
+    }
     .inner{
         padding: 50px 0 30px;
         position: relative;

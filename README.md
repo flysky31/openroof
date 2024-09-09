@@ -5,7 +5,7 @@
 
 반응형 웹사이트. :sparkles: <br>
 퍼블리싱 기여도 100%<br>
-폼메일 및 게시판은 실제 웹사이트에서 그누보드5로 적용한 사이트입니다.<br>
+폼메일 및 게시판은 실제 웹사이트에서 그누보드5로 적용한 사이트입니다. :sparkles: <br>
 <a title="https://flysky31.github.io/openroof" role="link" target="_blank" rel="noopener noreferrer nofollow" class="text-bold" href="https://flysky31.github.io/openroof/">flysky31.github.io/openroof/</a>
 
 

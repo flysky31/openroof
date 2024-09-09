@@ -127,6 +127,10 @@
   width: 100%;
   text-align: center;
 }
+.board_tab ul li.active a {
+  color: #fff;
+  background: #2D6770;
+}
 .board_tab ul li a {
   border: 1px solid #B5B6B6;
   height: 70px;
@@ -136,10 +140,7 @@
   font-weight: 800;
   color: #B5B6B6;
 }
-.board_tab ul li a.active {
-  color: #fff;
-  background: #2D6770;
-}
+
 .board_list .tab-pane{
   display:none;
 }

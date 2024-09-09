@@ -126,7 +126,12 @@
         li{
             width: 100%;
             text-align: center;
-            
+            &.active{
+                a{
+                    color: #fff;
+                    background: #2D6770;
+                }
+            }
             a{
                 border: 1px solid #B5B6B6;
                 height: 70px;
@@ -135,10 +140,7 @@
                 justify-content: center;
                 font-weight: 800;
                 color: #B5B6B6;
-                &.active{
-                    color: #fff;
-                    background: #2D6770;
-                }
+               
             }
         }
     }

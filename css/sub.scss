@@ -145,6 +145,12 @@
 }
 
 .board_list{
+    .tab-pane{
+        display:none;
+        &.active{
+            display:block;
+        }
+    }
     .bo-top-wrap{
         .board-btn{
             display: flex;

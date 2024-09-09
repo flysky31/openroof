@@ -140,7 +140,12 @@
   color: #fff;
   background: #2D6770;
 }
-
+.board_list .tab-pane{
+  display:none;
+}
+.board_list .tab-pane.active{
+  display:block;
+}
 .board_list .bo-top-wrap .board-btn {
   display: flex;
   justify-content: space-between;

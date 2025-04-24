@@ -75,7 +75,19 @@ $(document).ready(function() {
         $(this).removeClass("on");
         $(this).find('.sub_menu').removeClass("on");
     });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+            $('#toTopButton').addClass("on");
+        } else {
+            $('#toTopButton').removeClass("on");
+        }
+    });
+
+    // Scroll to the top of the page when the "top" button is clicked
+    $('#toTopButton').click(function() {
+        $('html, body').animate({ scrollTop: 0 }, 800);
+    });
 });
-    
 
 

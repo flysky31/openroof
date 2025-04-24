@@ -1,11 +1,6 @@
 
 $(document).ready(function() {
 
-    // $(".easeScroll").easeScroll({
-    //     animationTime: 0,
-    //     speed:100,
-    // });
-
  
     //제품소개
     let gallery_slider = new Swiper(".gallery_slider", {
@@ -41,21 +36,6 @@ $(document).ready(function() {
 
 
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     const scroll = new LocomotiveScroll({
-//         el: document.querySelector('[data-scroll-container]'),
-//         smooth: true, // 스무스 스크롤 사용 여부
-//         //direction: 'vertical', // 스크롤 방향 (수직, 수평)
-//         // 추가 옵션 설정 가능
-//       });
-    
-//   });
-// element.addEventListener('scroll', yourScrollHandler, { passive: true });
-
-
-
-
-
 
 function aniCtrl(){
     var _st = $(window).scrollTop();
@@ -72,7 +52,6 @@ function aniCtrl(){
 
 
 $(document).ready(function(){
-
     aniCtrl();
 
     $(window).scroll(function(){
